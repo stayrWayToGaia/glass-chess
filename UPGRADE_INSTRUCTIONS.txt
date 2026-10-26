@@ -1,0 +1,21 @@
+GLASS CHESS V2 - QUICK UPGRADE
+
+1) Stop the old server in PowerShell with Ctrl + C.
+2) Replace your old chess_multiplayer folder with this new folder.
+3) Open PowerShell inside the new folder.
+4) Run:
+   py -m pip install -r requirements.txt
+5) Start:
+   py main.py
+6) Open:
+   http://127.0.0.1:8000
+7) Hard refresh the browser with Ctrl + F5 so the old CSS/JS is not cached.
+
+New features:
+- Glassmorphism redesign
+- Exact responsive 8x8 board sizing
+- Play vs Computer: Easy / Medium / Hard
+- Choose White / Black / Random vs computer
+- Online friend rooms + invite links
+- Timers, sounds, move history, promotion, resign, draw offers, rematch, spectators
+- Last-move highlighting and low-time clock styling
